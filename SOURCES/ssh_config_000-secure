@@ -1,0 +1,12 @@
+# https://man.archlinux.org/man/ssh_config.5#ForwardAgent
+# https://man.archlinux.org/man/ssh_config.5#ForwardX11
+# https://man.archlinux.org/man/ssh_config.5#ForwardX11Trusted
+# https://man.archlinux.org/man/ssh_config.5#KbdInteractiveAuthentication
+# https://man.archlinux.org/man/ssh_config.5#PasswordAuthentication
+
+ForwardAgent no
+ForwardX11 no
+ForwardX11Trusted no
+ChallengeResponseAuthentication no
+KbdInteractiveAuthentication no
+PasswordAuthentication no
